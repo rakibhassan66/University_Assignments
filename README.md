@@ -1,3 +1,3 @@
 # Unviversity Assignments
 
-![Website Screenshot](/Photos/tr.jpeg)
+![Website Screenshot](/Photos/tr.jpg)
