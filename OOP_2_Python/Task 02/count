@@ -1,0 +1,26 @@
+def find_even_odd_details(numbers):
+    even_sum = 0
+    odd_sum = 0
+    even_count = 0
+    odd_count = 0
+
+    for num in numbers:
+        if num % 2 == 0:
+            even_sum += num
+            even_count += 1
+        else:
+            odd_sum += num
+            odd_count += 1
+
+    return even_sum, odd_sum, even_count, odd_count
+
+# Take a list of integers from the user
+numbers = list(map(int, input("Enter integers separated by spaces: ").split()))
+
+# Find the sums and counts of even and odd numbers
+even_sum, odd_sum, even_count, odd_count = find_even_odd_details(numbers)
+
+print("Sum of even numbers:", even_sum)
+print("Count of even numbers:", even_count)
+print("Sum of odd numbers:", odd_sum)
+print("Count of odd numbers:", odd_count)
