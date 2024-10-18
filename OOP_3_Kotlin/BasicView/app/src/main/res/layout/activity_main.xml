@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Lewra mardarchooot"
+        android:textIsSelectable="true"
+        android:textColorHighlight="#1CFFEC"
+        android:layout_margin="20dp"
+        android:textSize="20sp"
+        android:textStyle="bold|italic"
+        android:textAllCaps="true"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"/>
+    <Button
+        android:id="@+id/open_assignment_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Open Assignment Activity" />
+
+    <Button
+        android:id="@+id/open_scroll_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Open Scroll Activity" />
+
+</LinearLayout>

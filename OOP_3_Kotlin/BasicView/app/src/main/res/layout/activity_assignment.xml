@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AssignmentActivity">
+
+    <!-- First row of blocks -->
+    <LinearLayout
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <!-- First block in the row -->
+        <LinearLayout
+            android:layout_marginRight="10dp"
+            android:padding="30dp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:background="#FF0000">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Red"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp"
+                android:textAlignment="center"/>
+        </LinearLayout>
+
+        <!-- Second block in the row -->
+        <LinearLayout
+            android:padding="30dp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:background="#0BB610">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Green"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                android:textAlignment="center"/>
+        </LinearLayout>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <!-- First block in the row -->
+        <LinearLayout
+            android:layout_marginRight="10dp"
+            android:padding="30dp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:background="#00BCD4">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Red"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp"
+                android:textAlignment="center"/>
+        </LinearLayout>
+
+        <!-- Second block in the row -->
+        <LinearLayout
+            android:padding="30dp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:background="#3F51B5">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Green"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                android:textAlignment="center"/>
+        </LinearLayout>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <!-- First block in the row -->
+        <LinearLayout
+            android:layout_marginRight="10dp"
+            android:padding="30dp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:background="#CDDC39">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Red"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp"
+                android:textAlignment="center"/>
+        </LinearLayout>
+
+        <!-- Second block in the row -->
+        <LinearLayout
+            android:padding="30dp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:background="#673AB7">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Green"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                android:textAlignment="center"/>
+        </LinearLayout>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <!-- First block in the row -->
+        <LinearLayout
+            android:layout_marginRight="10dp"
+            android:padding="30dp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:background="#4CAF50">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Red"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp"
+                android:textAlignment="center"/>
+        </LinearLayout>
+
+        <!-- Second block in the row -->
+        <LinearLayout
+            android:padding="30dp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:background="#FFC107">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Green"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                android:textAlignment="center"/>
+        </LinearLayout>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <!-- First block in the row -->
+        <LinearLayout
+            android:layout_marginRight="10dp"
+            android:padding="30dp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:background="#FF9800">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Red"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp"
+                android:textAlignment="center"/>
+        </LinearLayout>
+
+        <!-- Second block in the row -->
+        <LinearLayout
+            android:padding="30dp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:background="#33B1AB">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Green"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                android:textAlignment="center"/>
+        </LinearLayout>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <!-- First block in the row -->
+        <LinearLayout
+            android:layout_marginRight="10dp"
+            android:padding="30dp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:background="#33B2E0">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Red"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp"
+                android:textAlignment="center"/>
+        </LinearLayout>
+
+        <!-- Second block in the row -->
+        <LinearLayout
+            android:padding="30dp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:background="#8213B1">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Green"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                android:textAlignment="center"/>
+        </LinearLayout>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <!-- First block in the row -->
+        <LinearLayout
+            android:layout_marginRight="10dp"
+            android:padding="30dp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:background="#FF0000">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Red"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp"
+                android:textAlignment="center"/>
+        </LinearLayout>
+
+        <!-- Second block in the row -->
+        <LinearLayout
+            android:padding="30dp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:background="#0BB610">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Green"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                android:textAlignment="center"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
